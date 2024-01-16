@@ -1,0 +1,13 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: SystemIo Test
+            description: SystemIo Test
+            version: 1.0.0
+    areas:
+        default:
+            path_patterns:
+                - ^/api/v1
+        public:
+            path_patterns:
+                - ^/public/api/v1
